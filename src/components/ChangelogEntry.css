@@ -1,0 +1,26 @@
+/* Dark mode styles */
+:global(.dark-mode) .changelog-card {
+    background-color: #2d2d2d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  :global(.dark-mode) .pr-header h3 {
+    color: #6f86ff;
+  }
+  
+  :global(.dark-mode) .pr-meta {
+    color: #adb5bd;
+  }
+  
+  :global(.dark-mode) .pr-summary {
+    background-color: #222;
+    border-left-color: #6f86ff;
+  }
+  
+  :global(.dark-mode) .summary-content h4 {
+    color: #6f86ff;
+  }
+  
+  :global(.dark-mode) .summary-content p {
+    color: #e1e1e1;
+  }
